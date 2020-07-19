@@ -36,6 +36,9 @@ nav a {
 a.menu:hover {
     background-color: darksalmon;
 }
+section{
+    height: 700px;
+}
 article {
     margin-top: 35px;
     margin-bottom: 25px;
