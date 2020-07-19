@@ -6,10 +6,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: dimgray;
+    background-color: black;
 }
 #wrapper {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: white;
 }
@@ -18,16 +18,20 @@ header img {
     display: block;
 }
 nav {
-    background-color: goldenrod;
+    overflow: hidden;
 }
-a.menu {
+nav a {
     font-size: 25px;
-    display: inline-block;
+    display: block;
     width: 25%;
+    float: left;
     padding: 15px 20px;
     color: white;
+    background-color: goldenrod;
     text-decoration: none;
     text-align: center;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 a.menu:hover {
     background-color: darksalmon;
@@ -51,6 +55,16 @@ img.left {
  width: 30%;
  border-radius: 0 10% 10% 0;
 }
+@media (max-width:800px){
+    nav a {
+        width: 50%;
+    }
+}
+@media (max-width:400px){
+    nav a{
+        width: 50%;
+    }
+}
 article h2 {
     font-size: 25px;
     font-weight: 700;
@@ -62,4 +76,8 @@ article p{
     line-height: 35px;
     font-size: 20px;
     padding: 20px;
+}
+
+iframe{
+    width: 100%;
 }
