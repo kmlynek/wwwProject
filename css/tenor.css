@@ -77,9 +77,6 @@ footer{
     height: 50px;
     margin: 0 15px;
 }
-iframe{
-    width: 100%;
-}
 @media (max-width:800px){
     nav a {
         width: 50%;
