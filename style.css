@@ -5,8 +5,7 @@
     font-family: Lora, arial;
     box-sizing: border-box;
 }
-body
-{
+body{
     background-color: dimgray;
 }
 #wrapper {
@@ -14,17 +13,14 @@ body
     margin: 0 auto;
     background-color: white;
 }
-header img
-{
+header img {
     width: 100%;
     display: block;
 }
-nav
-{
+nav {
     background-color: goldenrod;
 }
-a.menu
-{
+a.menu {
     font-size: 25px;
     display: inline-block;
     width: 25%;
@@ -33,17 +29,14 @@ a.menu
     text-decoration: none;
     text-align: center;
 }
-a.menu:hover
-{
+a.menu:hover {
     background-color: darksalmon;
 }
-article
-{
+article {
     margin-top: 35px;
     margin-bottom: 25px;
 }
-article h1
-{
+article h1 {
     font-size: 30px;
     font-weight: 900;
     text-align: center;
@@ -51,10 +44,22 @@ article h1
     padding-bottom: 20px;
     border-bottom: 4px solid darksalmon;
 }
-img.left
-{
+img.left {
  float: left;
- margin-right: 15px;
+ padding-right: 15px;
+ padding-bottom: 20px;
  width: 30%;
  border-radius: 0 10% 10% 0;
+}
+article h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+article p{
+    text-align: justify;
+    margin-right: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    padding: 20px;
 }
